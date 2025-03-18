@@ -81,16 +81,16 @@ public class Bank {
 					System.out.println("ALERT !! Amount needs to be positive.");
 					return;
 				}
-				bankServices.deposit(accountNumber3,amount);
+				bankServices.deposit(bankAccount,amount);
 				System.out.println("-----------------------------");
 				System.out.println("Amount deposited successfully !!");
-				//System.out.println("Updated Balance in the Account : "+bankAccount.balance);
+				System.out.println("Updated Balance in the Account : "+bankAccount.balance);
 				
 				
 				break;
-			case 3:
+			case 3:    //withdrawn to be added here
 				break;
-			case 4:
+			case 4:   //transfers to be added here 
 				break;
 			case 5: System.out.println("Enter the account number to get details !! ");
 			       int accountNumber2 = sc.nextInt();

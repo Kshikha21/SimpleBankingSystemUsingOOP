@@ -34,13 +34,14 @@ public class BankServices {
 		
 	}
 	//adds money to an account
-	public void deposit(int accountNumber , int amount) {
+	public void deposit(BankAccount bankAccount , int amount) {
 		
+		bankAccount.balance = bankAccount.balance + amount;
 		
 		
 	}
 	//Deducts money based on balance rules
-	public void withdraw(int accountNumber , int amount) {
+	public void withdraw(BankAccount bankAccount , int amount) {
 		
 		
 		
